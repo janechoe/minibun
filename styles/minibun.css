@@ -1,0 +1,38 @@
+body{
+  padding:5px;
+  text-align: center;
+  background-color: #F77C7C
+}
+@font-face{
+  font-family:Sniglet;
+  src:url('Sniglet-webfont.ttf'),
+  url('Sniglet-webfont.woff'),
+  url('Sniglet-webfont.svg'),
+  url('Sniglet-webfont.eot');
+}
+h1{
+  color:white;
+  font-size:5em;
+  font-family: Sniglet, sans-serif;
+}
+ul{
+  text-align: center;
+  list-style-type:none;
+  padding-top:2px;
+}
+li{
+  float:left;
+  font-size:1.3em;
+  line-height:1.5em;
+  font-weight:normal;
+  text-align: center;
+  margin-right: 30px;
+}
+
+#bio, #bio2{
+  font-size: 1.2em;
+  float:left;
+  /*margin-left: 50px;
+  margin-right: 50px;*/
+  width:50%;
+}
